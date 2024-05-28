@@ -21,7 +21,8 @@
   4. Reliability
 
 ## High Level Design
-![image](https://github.com/vivekdbit/leaderboard-doc/assets/44405152/e4d30ca7-34c2-421e-a2a2-b9fd57b11ca7)
+![image](https://github.com/vivekdbit/leaderboard-doc/assets/44405152/5075fc1c-b350-4e05-b4ac-9946814358d0)
+
 
 ## Traffic Estimations
 1. Number of users: 50 million
