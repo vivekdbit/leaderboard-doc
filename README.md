@@ -15,8 +15,8 @@
     ● Create a scheduled job that identifies the user with the highest points at a given moment and stores a new record in a winners table. This table must maintain a relationship with the original users table and store the timestamp when the user was declared a winner and their corresponding points at that time. The job should run every 5 minutes. In cases where there's a tie for the highest points, no winner should be declared, and no record should be created in the winners table.
 
 ## Non-Functional Requirements
-  1. High availability
-  2. Low latency
+  1. High Availability
+  2. Low Latency
   3. Scalability
   4. Reliability
 
