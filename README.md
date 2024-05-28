@@ -34,7 +34,7 @@
 4. Home page leaderboard read queries 1000 RQPS
 
 
-## Flow Details
+## Tech Stack
 1. Redis Sorted Sets for caching
 2. AWS Lambda used for scheduled job
 3. React for frontend
@@ -49,7 +49,7 @@ https://documenter.getpostman.com/view/30759648/2sA3QsAs2E#0b82d441-98f7-4a62-ae
 2. Backend Repository - https://github.com/vivekdbit/leaderboard
 
 ## Deployment
-1. Docker containter
+1. Docker container
 2. GitHub Actions
 3. ECR
 4. ECS
