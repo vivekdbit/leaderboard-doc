@@ -26,20 +26,30 @@
 ## Traffic Estimations
 1. Number of users: 50 million
 2. Daily active users: 10 million
+3. Read Query Per Second (RQPS)
     ```QPS = 10*10^6 / 24*60*60 
     QPS = 10*10^6 / 84600  ( Assume, 86400 ≈ 100000 Sec ) 
     QPS = 10*10^6*10^-5
     QPS ≈ 100
-3. At peak considering 10x QPS ≈ 1000
-4. Home page leaderboard read queries 1000 RQPS
-
+   At peak considering 10x QPS ≈ 1000
+   Home page leaderboard read queries 1000 RQPS
+    ```
+4. Write Query Per Second (WQPS)
+    Average 1 customer votes for 5 users
+    ```
+    QPS = 5 * 10*10^6 / 84600  ( Assume, 86400 ≈ 100000 Sec ) 
+    QPS = 5* 10*10^6*10^-5
+    QPS ≈ 500
+    At peak considering 10x QPS ≈ 5000
+    WQPS ≈ 5000
+    ```
+5. Read:Write = 1:5
 
 ## Tech Stack
-1. Redis Sorted Sets for caching
-2. AWS Lambda used for scheduled job
-3. React for frontend
-4. Python Flask for backend APIs
-5. MongoDB for storage
+1. React for frontend
+2. Python Flask for backend APIs
+3. MongoDB for storage
+4. AWS Lambda is used for scheduled job
 
 ## API Documentation
 https://documenter.getpostman.com/view/30759648/2sA3QsAs2E#0b82d441-98f7-4a62-ae85-7ad7d10055f3
