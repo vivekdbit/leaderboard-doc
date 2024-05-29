@@ -46,6 +46,9 @@
     ```
 5. Read:Write = 1:5
 
+## Data Model (Schema)
+![image](https://github.com/vivekdbit/leaderboard-doc/assets/44405152/452957c2-e2b4-4b82-be2e-bbec77fb5f42)
+
 ## Tech Stack
 1. React for frontend
 2. Python Flask for backend APIs
