@@ -16,9 +16,13 @@
 
 ## Non-Functional Requirements
   1. High Availability
+        - Autoscaling should be enabled to handle the anticipated spikes in traffic
   2. Low Latency
-  3. Scalability
-  4. Reliability
+        - The leaderboard data can be served in a paginated manner
+  4. Reliability 
+        - Set the replication factor to at least three to ensure data durability and enhance disaster recovery.
+        - Use Amazon ECS for container orchestration and CloudWatch for monitoring metrics and logging. 
+        - This setup provides real-time insights and alerting for your services and APIs.
 
 ## High Level Design
 ![image](https://github.com/vivekdbit/leaderboard-doc/assets/44405152/5075fc1c-b350-4e05-b4ac-9946814358d0)
