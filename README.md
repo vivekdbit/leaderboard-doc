@@ -72,3 +72,5 @@ https://documenter.getpostman.com/view/30759648/2sA3QsAs2E#0b82d441-98f7-4a62-ae
 3. ECR
 4. ECS
 5. Route53
+   ![image](https://github.com/vivekdbit/leaderboard-doc/assets/44405152/210d7f49-924d-428e-951a-de31f1ef7613)
+
